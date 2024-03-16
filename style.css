@@ -1,0 +1,30 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background-color: #0f0f0f;
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#screen{
+    width: 91%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    pointer-events: none;
+    background-color: darkseagreen;
+    font-size: 50px;
+}
+.btn{
+    width: 20%;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 14px;
+    background-color: khaki;
+}
+.brand{
+    color: #fff;
+    font-size: xx-large;
+    padding-left: 50px;
+    padding-top: 30px;
+}

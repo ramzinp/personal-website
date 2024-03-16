@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login/Sign in</title>
+    <link href="FB.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="Intex.html">
+                    facebook
+                </a>
+            </div>
+            <div class="Login">
+                <form>
+                <table class="login-control">
+                    <tbody>
+                        <tr>
+                            <td><label class="login-label"> Email or phone</label></td>
+                            <td><label class="login-label"> Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><input class="sub-btn" type="submit" value="Login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label><a class="Forgotten" href="Intex.html">Forgotten account?</a></label></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p>Facebook helps you connect and share with the<br>people in your life</p>
+        </div>
+        <div class="right-section">
+            <h1>Create an account</h1>
+            <p>It's quick and easy.</p>
+        <br>
+            <form id="signupForm">
+                <input class="form" type="text" placeholder="First name" name="fname">
+                <input class="form" type="text" placeholder="Surename" name="sname">
+                <br><br>
+                <input class="form" type="text" placeholder="Email address" name="emailAddress">
+                <br><br>
+                <input class="form" type="password" placeholder="New password" name="pwd">
+                <br><br>
+                <label class="label">Birthday</label>
+                <br><br>
+                <select name="day" id="">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="month">
+                    <option value="">month</option>
+                    <option value="month">April</option>
+                    <option value="month">May</option>
+                    <option value="month">June</option>
+                    <option value="month">July</option>
+                </select>
+                <select name="year">
+                    <option value="">year</option>
+                    <option value="year">2022</option>
+                    <option value="year">2023</option>
+                </select>
+                <br><br>
+                <label class="label">Gender</label>
+                <br><br>
+                <input type="radio" name="Gender">
+                <label>Female</label>
+                <input type="radio" name="Gender">
+                <label>Male</label>
+                <input type="radio" name="Gender">
+                <label>Custom</label>
+                <br><br><br>
+                <input class="button" type="submit" value="Sign In">
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.header
+{
+    width: 100%;
+    height: 85px;
+    background-color: #3b5993;
+}
+body
+{
+    margin: 0;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+
+}
+.logo
+{
+    width: 50%;
+    padding-top: 23px;
+    float: left;
+}
+.logo-text
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+}
+.login
+{
+    width: 50%;
+    float: left;
+}
+.login-label
+{
+    color: #fff;
+    font-size: 11px;
+}
+.login-control
+{
+    margin-left: 115px;
+    padding-top: 10px;
+}
+.Forgotten
+{
+        text-decoration: none;
+        color: #9cb4d8;
+}
+.sub-btn
+{
+    color: #fff;
+    background-color: #4267b2;
+    height: 22px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.sub-btn:hover
+{
+    background-color: #29487d;
+}
+.left-section
+{
+    width: 38%;
+    float: left;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-left: 170px;
+    font-size: 21px;
+    color: #210b70;
+}
+.right-section
+{
+    width: 38%;
+    float: left;
+}
+.main-body
+{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(white,#d3d8e8);
+}
+.form
+{
+    height: 24px;
+    width: 185px;
+    border-radius: 4px;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.label
+{
+    color: gray;
+}
+.button
+{
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 75px;
+    margin-left: 90px;
+    border: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: rgb(7, 168, 7);
+}
